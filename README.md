@@ -70,7 +70,7 @@ Depends on your resaerch purpose. In neurosurgery, eplipesy, neuromodulation etc
 
 This code was inspired by Dr. Chris Rorden's matlab script https://github.com/rordenlab/spmScripts/blob/master/nii_nii2stl.m.
 
-Also note that my preferred method is to use SimNIBS. SimNIBS uses "charm" to segment the brain (also uses recon all) and then uses gmsh to create mesh files that are super accurate and high quality. In case you have .msh files and want to convert to .stl you can use this: 
+Also note that my preferred method is to use SimNIBS. SimNIBS uses "charm" for segmentation (also uses recon all) and then uses gmsh to create mesh files that are super accurate and high quality. In case you have .msh files and want to convert to .stl you can use this: 
 gmsh "$msh_file" -o "$stl_file" -format stl
   
 Remy Cohan, 2023

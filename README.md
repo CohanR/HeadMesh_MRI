@@ -1,6 +1,5 @@
 # HeadMesh_MRI
-Recently, patients and participants have been increasingly asking if they could 3D print their T1 MRI images. So here is a python script that uses nifti (.nii) inputs and outputs head meshes in .stl .ply and .vtk 
-This code was inspired by Dr. Chris Rorden's matlab script https://github.com/rordenlab/spmScripts/blob/master/nii_nii2stl.m. Scroll down for details:
+Recently, patients and participants have been increasingly asking if they could 3D print their T1 MRI images. So here is a python script that uses nifti (.nii) inputs and outputs head meshes in .stl .ply and .vtk. Scroll down for details:
 
 ## Output Visualisation (for extracted brain)
 ![Output Extract](output_extract.png)
@@ -68,6 +67,8 @@ Modules:
 ### Why did I add both hollow and full:
 
 Depends on your resaerch purpose. In neurosurgery, eplipesy, neuromodulation etc. head and neck meshes are important (full mesh). On the otehr hand, if you are just using the mesh for visualisation or 3D printing it makes more sense to create hallow meshes.  Printing a hollow mesh consumes less material and hence is cheaper and faster.
+
+This code was inspired by Dr. Chris Rorden's matlab script https://github.com/rordenlab/spmScripts/blob/master/nii_nii2stl.m.
   
 Remy Cohan, 2023
 

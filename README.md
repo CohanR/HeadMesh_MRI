@@ -69,6 +69,9 @@ Modules:
 Depends on your resaerch purpose. In neurosurgery, eplipesy, neuromodulation etc. head and neck meshes are important (full mesh). On the otehr hand, if you are just using the mesh for visualisation or 3D printing it makes more sense to create hallow meshes.  Printing a hollow mesh consumes less material and hence is cheaper and faster.
 
 This code was inspired by Dr. Chris Rorden's matlab script https://github.com/rordenlab/spmScripts/blob/master/nii_nii2stl.m.
+
+Also note that my preferred method is to use SimNIBS. SimNIBS uses "charm" to segment the brain (also uses recon all) and then uses gmsh to create mesh files that are super accurate and high quality. In case you have .msh files and want to convert to .stl you can use this: 
+gmsh "$msh_file" -o "$stl_file" -format stl
   
 Remy Cohan, 2023
 

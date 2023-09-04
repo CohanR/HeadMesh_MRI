@@ -1,6 +1,6 @@
 # HeadMesh_MRI
-Patients and participants have increasingly been asking if they could 3D print their T1 MRI images. So here is a python script that uses nifti (.nii) inputs and outputs head meshes in .stl .ply and .vtk 
-This code was inspired by Dr. Chris Rorden's https://github.com/rordenlab/spmScripts/blob/master/nii_nii2stl.m. Scroll down for details:
+Recently, patients and participants have been increasingly asking if they could 3D print their T1 MRI images. So here is a python script that uses nifti (.nii) inputs and outputs head meshes in .stl .ply and .vtk 
+This code was inspired by Dr. Chris Rorden's matlab script https://github.com/rordenlab/spmScripts/blob/master/nii_nii2stl.m. Scroll down for details:
 
 ## Output Visualisation (for extracted brain)
 ![Output Extract](output_extract.png)

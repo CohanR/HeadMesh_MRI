@@ -67,10 +67,7 @@ Modules:
 
 ### Why did I add both hollow and full:
 
-**Hollow vs. Full Mesh**:
-
-In the context of 3D printing:
-- **Hollow Mesh**: A hollow mesh is like the outer shell of an object without any fill. Printing a hollow mesh consumes less material and hence is cheaper and faster.
+Depends on your resaerch purpose. In neurosurgery, eplipesy, neuromodulation etc. head and neck meshes are important (full mesh). On the otehr hand, if you are just using the mesh for visualisation or 3D printing it makes more sense to create hallow meshes.  Printing a hollow mesh consumes less material and hence is cheaper and faster.
   
-- **Full Mesh**: A full mesh has volume and isn't just the outer shell. This requires more material and takes longer to print.
+Remy Cohan, 2023
 

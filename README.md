@@ -1,6 +1,19 @@
 # HeadMesh_MRI
 Patients and participants have increasingly been asking if they could 3D print their T1 MRI images. So here is a python script that uses nifti (.nii) inputs and outputs head meshes in .stl .ply and .vtk 
-This code was inspired by Dr. Chris Rorden's https://github.com/rordenlab/spmScripts/blob/master/nii_nii2stl.m
+This code was inspired by Dr. Chris Rorden's https://github.com/rordenlab/spmScripts/blob/master/nii_nii2stl.m. Scroll down for details:
+
+## Output Extract Visualisation
+![Output Extract](output_extract.png)
+
+## Slicer for Extract
+![Extract Slicer](xtrac_slicer.png)
+
+## Full Output Visualisation
+![Full Output](output_full.png)
+
+## Slicer for Full Output
+![Full Slicer](slicer_full.png)
+
 
 So what does this code do:
 
@@ -16,8 +29,8 @@ Modules:
    - `label`, `regionprops`: From `skimage.measure` to identify and analyse connected components
 
 
-   ## *I added image visulisation here just for insopection/fun, you should have inspected the image before. Axial, sagittal, and coronal views of the brain are displayed. 
-   ## * I also added the Otsu's method to get a data-driven threshold suggestion, but kept the otption to input any threshold value you wish to chose. 
+   #### *I added image visulisation here just for insopection/fun, you should have inspected the image before. Axial, sagittal, and coronal views of the brain are displayed. 
+   #### * I also added the Otsu's method to get a data-driven threshold suggestion, but kept the otption to input any threshold value you wish to chose. 
    
 
 **Thresholding using Otsu's Method**:

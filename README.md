@@ -1,7 +1,7 @@
 # HeadMesh_MRI
 Recently, patients and participants have been increasingly asking if they could 3D print their T1 MRI images. So here is a python script that uses nifti (.nii) inputs and outputs head meshes in .stl .ply and .vtk. Scroll down for details:
 
-Please note that 3D printing requires "watertight" models, meaning there shouldn't be any holes or non-manifold geometry in your mesh. So, before using your mesh in Slicer 3D you should use softwares like Meshmixer, MeshLab, or 
+Please note that 3D printing requires "watertight" models, meaning there shouldn't be any holes or non-manifold geometry in your mesh. So, before using your mesh in 3D Slicer you should use softwares like Meshmixer, MeshLab, or 
 Microsoft's 3D Builder to inspect and repair the mesh. These tools can identify and fix common mesh problems that could affect 3D printing.
 
 ## Output Visualisation (for extracted brain)
